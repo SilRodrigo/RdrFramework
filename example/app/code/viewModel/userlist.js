@@ -4,7 +4,7 @@ import UserlistModel from "../model/userlist.js";
 export default class Userlist extends FrameworkAbstractModel {
 
     #paths = {
-        provider_url: '/example/mock-api/userlist'
+        provider_url: '/RdrFramework/example/mock-api/userlist'
     }
 
     get paths(){
