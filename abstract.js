@@ -76,14 +76,14 @@ export default class FrameworkAbstractModel {
     }
 
     startLoading() {
-        document.querySelectorAll(`[${framework.prefix}-container="${this.#module_name}"]`).forEach(element => {
-            if (element.hasAttribute(framework.prefix + '-load')) element.classList.add('loading');
+        document.querySelectorAll(`[${rdr.prefix}-container="${this.#module_name}"]`).forEach(element => {
+            if (element.hasAttribute(rdr.prefix + '-load')) element.classList.add('loading');
         })
     }
 
     stopLoading() {
-        document.querySelectorAll(`[${framework.prefix}-container="${this.#module_name}"]`).forEach(element => {
-            if (element.hasAttribute(framework.prefix + '-load')) element.classList.remove('loading');
+        document.querySelectorAll(`[${rdr.prefix}-container="${this.#module_name}"]`).forEach(element => {
+            if (element.hasAttribute(rdr.prefix + '-load')) element.classList.remove('loading');
         })
     }
 

@@ -13,7 +13,6 @@ const rdr = window.rdr = new class Framework {
     #isLoaded = false;
 
     #messages = {
-        MODEL_MUST_EXTEND_ABSTRACT_CLASS: 'A injeção informada deve extender FrameworkAbstractModel',
         INVALID_SCOPE: 'Propriedade informada na DOM não existe: ',
         INVALID_FUNCTION: 'Função inválida na DOM, verifique: ',
         MODEL_EXEC_FAILURE: 'Falha de execução no model: '
@@ -390,10 +389,6 @@ const rdr = window.rdr = new class Framework {
      * @param {FrameworkAbstractModel} injection
      */
     inject(injection) {
-        if (!injection instanceof FrameworkAbstractModel) {
-            console.warn(injection);
-            throw(this.#messages.MODEL_MUST_EXTEND_ABSTRACT_CLASS);
-        }
         injection.loaded_content = false;
         this[injection.constructor.name.toLowerCase()] = injection;
     }
