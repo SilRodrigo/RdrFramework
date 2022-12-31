@@ -4,6 +4,7 @@
 - Este módulo funciona a partir de atributos próprios inseridos nos elementos do html, 
 tendo como atributo *pai* o nome do Model ao qual deseja ser usado.
 - Funciona de forma similar ao conceito do Angular ou do KnockoutJs.
+- Veja a branch **example* para entender melhor o comportamento.
 
 ### Lista de atributos
 - **rdr-container**: Use para informar o nome do Model que deseja usar para popular o html.
