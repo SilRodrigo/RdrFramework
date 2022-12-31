@@ -1,4 +1,4 @@
-# Guia de uso Rodrigo_Framework
+# Guia de uso RdrFramework
 
 ## Como utilizar este módulo?
 - Este módulo funciona a partir de atributos próprios inseridos nos elementos do html, 
