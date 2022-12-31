@@ -1,9 +1,17 @@
-# Guia de uso Rodrigo_Framework
+# Guia de uso rdr_framework
 
 ## Como utilizar este recurso?
 Neste exemplo importamos o renderer.js através de um script de tipo *module* no html, 
 chamamos a função inject e passamos o objeto que queremos que seja renderizado.
 Lembrando que o objeto deve extender a classe **FrameworkAbstractModel** que está no arquivo *abtract.js*.
+
+Para usar esse exemplo tenha node instalado na sua máquina e na pasta raiz (aqui onde está esse arquivo) rode os comandos:
+`npm install` e `npm start`
+assim que a aplicação levantar, acesse:
+`http://localhost:8888/`
+
+Na pasta example/mock-api você terá um exemplo de api para trabalhar, 
+fique à vontade para adicionar outras ou editar a que já existe.
 
 ### Lista de atributos
 - **rdr-container**: Use para informar o nome do Model que deseja usar para popular o html.
@@ -20,4 +28,4 @@ Lembrando que o objeto deve extender a classe **FrameworkAbstractModel** que est
 
 #### Q: Como vejo quais Models estão implementados ao core?
 **R:**
-- No console do navegador digite framework ou window.framework para ver a classe Core em execução.
+- No console do navegador digite rdr ou window.rdr para ver a classe Core em execução.
