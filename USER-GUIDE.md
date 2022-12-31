@@ -1,9 +1,9 @@
 # Guia de uso Rodrigo_Framework
 
-## Como utilizar este módulo?
-- Este módulo funciona a partir de atributos próprios inseridos nos elementos do html, 
-tendo como atributo *pai* o nome do Model ao qual deseja ser usado.
-- Funciona de forma similar ao conceito do Angular ou do KnockoutJs.
+## Como utilizar este recurso?
+Neste exemplo importamos o renderer.js através de um script de tipo *module* no html, 
+chamamos a função inject e passamos o objeto que queremos que seja renderizado.
+Lembrando que o objeto deve extender a classe **FrameworkAbstractModel** que está no arquivo *abtract.js*.
 
 ### Lista de atributos
 - **rdr-container**: Use para informar o nome do Model que deseja usar para popular o html.
