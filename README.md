@@ -6,7 +6,7 @@ chamamos a função inject e passamos o objeto que queremos que seja renderizado
 Lembrando que o objeto deve extender a classe **FrameworkAbstractModel** que está no arquivo *abtract.js*.
 
 Para usar esse exemplo tenha node instalado na sua máquina e na pasta raiz (aqui onde está esse arquivo) rode os comandos:
-`npm install` e `npm start`
+`npm install` e `node app.js`
 assim que a aplicação levantar, acesse:
 `http://localhost:8888/`
 
