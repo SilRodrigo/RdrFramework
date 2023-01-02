@@ -21,4 +21,4 @@ tendo como atributo *pai* o nome do Model ao qual deseja ser usado.
 
 #### Q: Como vejo quais Models estão implementados ao core?
 **R:**
-- No console do navegador digite framework ou window.framework para ver a classe Core em execução.
+- No console do navegador digite rdr ou window.rdr para ver a classe Core em execução.
